@@ -23,9 +23,9 @@ result = ev double
 
 -- filter (\x -> mod x 2 == 0) [1..20]
 
---javascript exemplo reduce
+--javascript exemplo reduce (foldl is "reduce" from Haskell)
 
--- reduce (\x y -> x + y) 0 [1..20]
+-- foldl (\x y -> x + y) 0 [1..20]
 
 --currying and lazy Load
 sumThreeNum :: Int -> Int -> Int -> Int
